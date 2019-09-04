@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Bylo Deals</string>
+    <string name="we_never_like_to_grow_up_but_are_you_18">We never like to grow up, but are you 18+ ?</string>
+    <string name="todo">TODO</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
 </resources>
