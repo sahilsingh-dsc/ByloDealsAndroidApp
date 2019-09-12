@@ -4,4 +4,8 @@
     <string name="todo">TODO</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_the_deal_code_to_verify">Enter the Deal Code To Verify</string>
 </resources>
