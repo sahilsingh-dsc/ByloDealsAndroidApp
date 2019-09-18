@@ -7,5 +7,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="enter_the_deal_code_to_verify">Enter the Deal Code To Verify</string>
+    <string name="enter_the_deal_code_to_verify">Enter The Deal Code To Verify</string>
+    <string name="deal_title">Deal Title</string>
 </resources>
