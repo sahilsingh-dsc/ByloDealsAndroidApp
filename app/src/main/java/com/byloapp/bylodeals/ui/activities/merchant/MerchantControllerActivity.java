@@ -17,9 +17,7 @@ public class MerchantControllerActivity extends AppCompatActivity {
 
         FragmentManager fm = getSupportFragmentManager();
         MerchantDashboardFragment merchantDashboardFragment = new MerchantDashboardFragment();
-        fm.beginTransaction().add(R.id.frameMC,merchantDashboardFragment).commit();
-
-
+        fm.beginTransaction().add(R.id.frameMC,  merchantDashboardFragment).commit();
 
     }
 }

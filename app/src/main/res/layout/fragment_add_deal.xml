@@ -152,6 +152,16 @@
                     style="@style/spinnerStyle"
                     android:background="@drawable/rc_textfield_border_grey" />
 
+                <Spinner
+                    android:id="@+id/spinnerCategoryOfDeal"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    style="@style/spinnerStyle"
+                    android:background="@drawable/rc_textfield_border_grey" />
+
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -205,10 +215,57 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:layout_margin="1dp"
+                        android:hint="Start Time">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txtStartTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:fontFamily="@font/lato" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="1dp"
                         android:hint="End Date">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/txtEndDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:editable="false"
+                            android:focusable="false"
+                            android:fontFamily="@font/lato" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="1dp"
+                        android:hint="End Time">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txtEndTime"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:editable="false"
