@@ -106,21 +106,10 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
-                android:fontFamily="@font/lato"
-                android:text="50 Claimed"
-                android:textColor="@color/colorButtonGreen"
-                app:layout_constraintEnd_toEndOf="@+id/textView9"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-            <TextView
-                android:id="@+id/txtDealCode"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/lato"
-                android:text="MCP3456D"
+                android:text="50 Claimed"
                 android:textColor="@color/colorButtonGreen"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/cardView"
@@ -146,32 +135,19 @@
             </androidx.cardview.widget.CardView>
 
             <TextView
-                android:id="@+id/textView18"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="8dp"
-                android:text="Edit Deal"
-                android:padding="5dp"
-                android:textColor="@color/colorWhite"
-                android:background="@drawable/button_round_grey"
-                android:fontFamily="@font/lato"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/txtDeactivateDeal" />
-
-            <TextView
                 android:id="@+id/txtDeactivateDeal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
                 android:layout_marginBottom="8dp"
-                android:text="Deactivate"
-                android:padding="5dp"
-                android:textColor="@color/colorWhite"
-                android:background="@drawable/button_round_primary_gra"
+                android:background="@drawable/button_border_round"
                 android:fontFamily="@font/lato"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="View Customers"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintStart_toStartOf="@+id/textView14" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
